@@ -3,8 +3,16 @@
 My Custom JS
 ============
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
+Author:  Bishal Thapa
+Updated: December 2014
+Notes:	 Hand coded for rasinban in reference to brad hussey 
 
 */
+
+$(function(){
+	$('#alertMe').click(function(e){
+		e.preventDefault();
+
+		$('#successAlert').slideDown();
+	});
+});
