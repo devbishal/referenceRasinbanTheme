@@ -3,9 +3,9 @@
 My Custom CSS
 =============
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
+Author:  Bishal Thapa
+Updated: December 2014
+Notes:	 Hand coded for rasinban in reference to brad hussey 
 
 */
 
@@ -20,7 +20,18 @@ Notes:	 Hand coded for Udemy.com
    Typography
    -------------------------------------- */
 
+body{
+   -webkit-font-smoothing: antialiased;
+   text-rendering:optimizelegibility;
+}
 
+.well .page-header{
+   margin-top: 0;
+}
+ 
+.well .page-header h1{
+   margin-top: 0;
+}
 
 /* --------------------------------------
    Navbar
@@ -69,7 +80,14 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+.alert{
+   margin-top: 20px;
+   display: none;
+}
 
+.well{
+   margin: 20px 0;
+}
 
 
 /* --------------------------------------
