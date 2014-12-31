@@ -14,6 +14,13 @@ Notes:	 Hand coded for rasinban in reference to brad hussey
    Layout
    -------------------------------------- */
 
+#features{
+   text-align: center;
+}
+
+#features img{
+   margin: 0 0 20px;
+}
 
 
 /* --------------------------------------
@@ -65,15 +72,15 @@ body{
 }
 
 #slide1{
-   background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+   background: url('../../images/carousel_medium_01.png') top center no-repeat;
 }
 
 #slide2{
-   background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+   background: url('../../images/carousel_medium_02.png') top center no-repeat;
 }
 
 #slide3{
-   background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+   background: url('../../images/carousel_medium_03.png') top center no-repeat;
 }
 
 
@@ -115,15 +122,15 @@ body{
    }
 
    #slide1{
-      background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+      background: url('../../images/carousel_medium_01.png') top center no-repeat;
    }
 
    #slide2{
-      background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+      background: url('../../images/carousel_medium_02.png') top center no-repeat;
    }
 
    #slide3{
-      background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+      background: url('../../images/carousel_medium_03.png') top center no-repeat;
    }
 }
 
@@ -135,15 +142,15 @@ body{
    }
 
    #slide1{
-      background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+      background: url('../../images/carousel_large_01.png') top center no-repeat;
    }
 
    #slide2{
-      background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+      background: url('../../images/carousel_large_02.png') top center no-repeat;
    }
 
    #slide3{
-      background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+      background: url('../../images/carousel_large_03.png') top center no-repeat;
    }
 	
 }
